@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini quizz Musical</title>
+    <link href="stylesheet" src="test.css">
+    <script defer src="test.js"></script>
+</head>
+
+<body>
+    <h1>Quizz Musical</h1>
+    <div id="welcomeScreen">
+        <P>Passe un petit moment de detente en testant tes connaissances en <strong>Rap</strong> et
+            <strong>Afrobeat</strong></P>
+        <button id="startBtn">Commencer</button>
+    </div>
+    <div id="quizz-container" style="display: none;">
+        <div id="progress" style="margin-bottom:10px;"></div>
+        <div id="questions"></div>
+        <div id="answer-options"></div>
+        <div id="timer"></div>
+        <button id="nextBtn" style="display: none;">Suivant</button>
+    </div>
+    <div id="pop-up" style="display: none;">
+        <p id="pop-upMessage"></p>
+    </div>
+</body>
+
+</html>
