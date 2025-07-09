@@ -8,11 +8,11 @@
 //         counter++; 
 //     };
 
-let counter=50
-while (counter<=99) {
-       console.log(counter);
-        counter++; 
-    };
+// let counter=50
+// while (counter<=99) {
+//        console.log(counter);
+//         counter++; 
+//     };
 
     let compteur= 49
     while (compteur>=1){
